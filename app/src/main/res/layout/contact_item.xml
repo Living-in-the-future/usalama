@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/item_details"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/item_fullname"
+            android:layout_width="match_parent"
+            android:text="Full Name: John Doe"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/item_email"
+            android:layout_width="match_parent"
+            android:text="Email: john@doe.com"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/item_phone"
+            android:layout_width="match_parent"
+            android:text="Phone: 07126333673"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "180852067876",
+    "firebase_url": "https://uzalama.firebaseio.com",
+    "project_id": "uzalama",
+    "storage_bucket": "uzalama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180852067876:android:40b663d4f36fd3f8a0d2b1",
+        "android_client_info": {
+          "package_name": "com.gwinto.uzalama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180852067876-iie4uo0rms8lhsrvbuu735ck7u8tivja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gwinto.uzalama",
+            "certificate_hash": "e8c741745a24223e9dc3ca716f12ff6c2cc91e8f"
+          }
+        },
+        {
+          "client_id": "180852067876-hp0sp0v5dp4fbdobie6qol3h5207e5cm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJbUOryn9UUKiXNeyAhMHy7p-XClrK38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180852067876-hp0sp0v5dp4fbdobie6qol3h5207e5cm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".AddEmergencyContactActivity"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:paddingBottom="30dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/contact_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:drawableLeft="@drawable/username"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/first_name"
+                android:inputType="text"
+                android:drawableStart="@drawable/username"
+                android:importantForAutofill="no" />
+            <EditText
+                android:id="@+id/contact_onames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:drawableLeft="@drawable/username"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/other_names"
+                android:inputType="text"
+                android:drawableStart="@drawable/username"
+                android:importantForAutofill="no" />
+            <EditText
+                android:id="@+id/contact_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:drawableLeft="@drawable/email"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/email"
+                android:importantForAutofill="no" />
+            <EditText
+                android:id="@+id/contact_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:drawableLeft="@drawable/phone"
+                android:layout_marginEnd="30dp"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:drawableStart="@drawable/phone"
+                android:importantForAutofill="no" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add_contact_list_item"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btn_style_accent_stroke"
+                android:drawableRight="@drawable/login"
+                android:onClick="login"
+                android:text="@string/add_contact"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableEnd="@drawable/add_contact_dark" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

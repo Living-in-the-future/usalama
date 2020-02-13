@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Usalama</string>
+    <string name="history">History</string>
+    <string name="contact_list">Contacts</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="not_registered_click_to_join">Not registered? Click to JOIN</string>
+    <string name="the_best_way_to_communicate_emergency">The best way to communicate emergency</string>
+    <string name="welcome_to_usalama">Welcome to Usalama</string>
+    <string name="register">Register</string>
+    <string name="already_registered_click_to_login">Already Registered? Click to LOGIN</string>
+    <string name="first_name">First Name</string>
+    <string name="other_names">Other Names</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="home">Home</string>
+    <string name="icon2">Icon2</string>
+    <string name="icon1">Icon1</string>
+    <string name="logout">Logout</string>
+    <string name="emergency_message">HELP! I am in a critical emergency!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="click_to_view_your_contact_list">Click to view your contact list</string>
+    <string name="click_to_view_emergency_alerts">Click to view emergency alerts</string>
+    <string name="update_profile">Update Profile</string>
+</resources>
